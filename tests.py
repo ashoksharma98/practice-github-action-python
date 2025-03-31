@@ -19,3 +19,6 @@ def test_add_numbers():
 
     # Test with large numbers
     assert add_numbers([1000000, 5000000, 2000000]) == 8000000
+
+    # Failed test case
+    assert add_numbers([10, 20, 30]) == 59
